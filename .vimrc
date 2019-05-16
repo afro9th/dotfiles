@@ -95,6 +95,9 @@ set background=dark
 highlight LineNr ctermfg=darkyellow
 " カーソルが何行目の何列目に置かれているかを表示する
 set ruler
+" Control + e で :NERDTreeToggle を行う
+nnoremap <silent><C-e> :NERDTreeToggle<CR>
+
 
 """"""""""""""""""""""""""""""
 " プラグインのセットアップ
