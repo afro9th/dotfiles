@@ -15,6 +15,8 @@ set hidden
 set showcmd
 " vim の矩形選択で文字が無くても右へ進める
 set virtualedit=block
+" クリップボードを使用したコピー"
+set clipboard+=unnamed
 
 "----------------------------------------
 " 検索
