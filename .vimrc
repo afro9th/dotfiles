@@ -15,8 +15,10 @@ set hidden
 set showcmd
 " vim の矩形選択で文字が無くても右へ進める
 set virtualedit=block
-" クリップボードを使用したコピー"
+" クリップボードを使用したコピー
 set clipboard+=unnamed
+" Insert modeでのBack space使用許可
+set backspace=indent,eol,start
 
 "----------------------------------------
 " 検索
