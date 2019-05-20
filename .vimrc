@@ -164,6 +164,9 @@ Plug 'tpope/vim-surround'
 " インデントに色を付けて見やすくする
 Plug 'nathanaelkane/vim-indent-guides'
 
+"シンタックスハイライト for slim
+Plug 'slim-template/vim-slim'
+
 " vimを立ち上げたときに、自動的にvim-indent-guidesをオンにする
 let g:indent_guides_enable_on_vim_startup = 1
 
